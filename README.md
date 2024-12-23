@@ -1,4 +1,4 @@
-#QuizApp using file handling in C++
+##QuizApp using file handling in C++
 The quizapp consist of three different files 
   1. index.cpp
   2. example.txt
