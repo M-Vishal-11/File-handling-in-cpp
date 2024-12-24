@@ -31,6 +31,7 @@ int main() {
                 throw exception();
             }
             transform(temp.begin(), temp.end(), temp.begin(), ::toupper);
+            transform(atemp.begin(), atemp.end(), atemp.begin(), ::toupper);
             if (atemp == temp) {
                 cout<<"Answer is correct"<<endl;
             }else{
